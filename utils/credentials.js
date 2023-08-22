@@ -1,0 +1,16 @@
+const CREDENTIALS = JSON.parse(
+  JSON.stringify({
+    private_key:
+      "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDVdyq3b+Y8Rwg3\ndjZ9goTouIPfHiAfZUjqMXZMPhmmngXaAZ2LNR8PduvmQfXzy/feK8TAvyKQZoHI\npno/s44KLeiHzWF6h3PO77/R4HZC0mMU8gUYlpCPe3OFSmRVrIT1V2wAZzSjEFq7\nnSlBUTz/98LkIPFNKHiCNILigMu3yUNtbgPa3VTSrqUesdC6X2dsxM6qpV/unVjm\neHY+q+2L+hLfm/u8NpoWpi6xYy2G18jNB9jqnNGad+hvj3zpyjgiy7ItBPZhaX1k\nIVOOfRyHUffbLkYtXNCKaJshcrCBQwNYwDRESY+g6QE67RFW/B3c5Orw0atgUlPc\nRXro4cnfAgMBAAECggEADh386w0RRrroiLPJLmto0HPkyLyBzFcS8jtbgvb3vvn5\nZ22u68C+G/Q17VA/F09Nxll9ABruir/fZRPZcYgK5JJyVoosdawqlQIXB1FsZhvq\n0JJMPaWLdum8/eYpv4loG5+bSrrd6Mt77KdxTdq1CYqVpCenkv49BgNkr90WW+zq\nUmg5cmoVbXeQhCSQ4UYQCBdqFLDmDdupZuSe9/S3+/7MxzBUJbu+j32CAdF06pGD\nfNErpynWuSQtqxJn2HsohPETws12mYGH0UOSTPaTDsqDaWNBqx5/ubd6cx3KeZbu\ntKh9undVySoaESrQfW8zOCbq6orRHrjlRKcO5yy5MQKBgQD/mGpwpq2rcUhwGskc\nvuGFUkPHJiLK7jjvNYVZ0lGydQR0WZCTPG4wkIEumaOX/dZDI2mHAlGBfm3E/9zZ\ndbrvrxdQvAzu4f6RL+BofQBNLXbbrZlza8duo3QKmNCyXKoNernWFGjmlRhL4uNn\nvW4xpONHJEIZNdhU58NcDxKwMQKBgQDVza1goC0IX+S/B4belACd3SXfBZ5oOXno\nPuwXJGZIofGRItZvofBh2e9R3BCUJUmoVY8Noy2ZjIQevFS9LFqXcj3xNEGDO2fk\nJ1+/JCPTkoFjKThh4R/e7mU46gmRk+HrIbZUuChj8wYywPR88P/j99plhtH1/ofl\nhkhSUpInDwKBgQCUU07xsMh4BXWUGPc8x0j4pZTPrUHjoftIVjbcuUDP3ziGjLNp\nvlfztuhAsshNG/GLZLGIt7+09jmdaR4w1DF3hpRxNbALsPqaJr6D5IaYQxoGweeb\nI6DIg/KDc8sotr24tM/DfHSj20IOR8zQFw4roRSD5Ha3SpgQLa8hbV3bAQKBgFCk\nPkPWxoWFHdNLtHwZWM4yTol7Jg9rtmZ57TShXw8APgwfFsCOVQujVtgKaBpoogqj\nEszzAk0LKf4pzNB5fUXoKiLjMd6ctofgrgV7TSQM+056irCoaAv+4SEBbVCCddDp\nK0tzFpD0Zh8Yll7Vy76hireGjYT6VymkZ3zddhDTAoGBAIFPvabMinMNvDkyfV1g\nIPBXhhFA+EklDZOKfXFgKhUd/Reqa4bKhFA/REDwoLaVkp8ktGQqS7wLg3buTYEw\ntSkMJXNBiHIovk0pwsYf2xd6uXWmoy9R8bBYZQXirUYQn619cB23fiGbZf76qRVM\nIS18vWpJppTEW33pIXFUoxv3\n-----END PRIVATE KEY-----\n",
+    client_email: "mediproject@psychic-fin-388903.iam.gserviceaccount.com",
+  })
+);
+
+const CONFIG = {
+  credentials: {
+    private_key: CREDENTIALS.private_key,
+    client_email: CREDENTIALS.client_email,
+  },
+};
+
+module.exports = CONFIG;
